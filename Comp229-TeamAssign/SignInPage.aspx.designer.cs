@@ -10,33 +10,42 @@
 namespace Comp229_TeamAssign {
     
     
-    public partial class _Default {
+    public partial class SignInPage {
         
         /// <summary>
-        /// loginLink control.
+        /// usernameTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton loginLink;
+        protected global::System.Web.UI.WebControls.TextBox usernameTxt;
         
         /// <summary>
-        /// signInLink control.
+        /// passwordTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton signInLink;
+        protected global::System.Web.UI.WebControls.TextBox passwordTxt;
         
         /// <summary>
-        /// shoesALink control.
+        /// emailTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton shoesALink;
+        protected global::System.Web.UI.WebControls.TextBox emailTxt;
+        
+        /// <summary>
+        /// registerBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button registerBtn;
     }
 }

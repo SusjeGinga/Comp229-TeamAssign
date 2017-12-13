@@ -1,8 +1,21 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Comp229_TeamAssign._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <br />
 
-    <div class="jumbotron">
+    <asp:linkButton ID="loginLink" href="LoginPage.aspx" runat="server"> Login </asp:linkButton>
+    <asp:LinkButton ID="signInLink" href="SignInPage.aspx" runat="server"> Sign In </asp:LinkButton>
+    <br /><br />
+    <h1>Ice Ski Shoes Rentail</h1>
+    <br />
+    <h3>Shoeses list</h3>
+    <ul>
+        <li><asp:linkButton ID="shoesALink" href="DetailPage.aspx" runat="server">Shoes A</asp:linkButton></li>
+        <li>Shoes B</li>
+    </ul>
+
+
+   <%-- <div class="jumbotron">
         <h1>ASP.NET</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
@@ -37,6 +50,6 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
         </div>
-    </div>
+    </div>--%>
 
 </asp:Content>
