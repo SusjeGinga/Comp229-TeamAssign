@@ -8,11 +8,24 @@
     <br /><br />
     <h1>Ice Ski Shoes Rentail</h1>
     <br />
+
     <h3>Shoeses list</h3>
     <ul>
         <li><asp:linkButton ID="shoesALink" href="DetailPage.aspx" runat="server">Shoes A</asp:linkButton></li>
         <li>Shoes B</li>
     </ul>
+
+    <asp:GridView ID="ItemGrid" runat="server" AutoGenerateColumns="False">
+        <Columns>
+            <asp:HyperLinkField DataTextField="ShoeID" HeaderText="Shoe ID" DataNavigateUrlFields="ShoeID" 
+                DataNavigateUrlFormatString="DetailPage.aspx?ShoeID={0}" />
+            <asp:BoundField DataField="Brand" HeaderText="Brand" />
+            <asp:BoundField DataField="Category" HeaderText="Category" />
+        </Columns>
+    </asp:GridView>
+    <br /><br />
+
+
 
 
    <%-- <div class="jumbotron">

@@ -5,6 +5,14 @@
     <br />
     <h3>Shoes detail</h3>
 
+    <asp:DetailsView ID="shoeDetails" runat="server" AutoGenerateRows="False">
+        <Fields>
+            <asp:BoundField DataField="ShoeID" HeaderText="Shoe ID" />
+            <asp:BoundField DataField="Brand" HeaderText="Brand" />
+            <asp:BoundField DataField="Category" HeaderText="Category" />            
+        </Fields>
+    </asp:DetailsView>
+
 
 
     
