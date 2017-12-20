@@ -7,7 +7,7 @@
 
     <asp:DetailsView ID="shoeDetails" runat="server" AutoGenerateRows="False">
         <Fields>
-            <asp:BoundField DataField="ShoeID" HeaderText="Shoe ID" />
+            <asp:BoundField DataField="ShoesID" HeaderText="Shoe ID" />
             <asp:BoundField DataField="Brand" HeaderText="Brand" />
             <asp:BoundField DataField="Category" HeaderText="Category" />            
         </Fields>

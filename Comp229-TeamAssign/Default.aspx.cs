@@ -11,6 +11,11 @@ namespace Comp229_TeamAssign
 {
     public partial class _Default : Page
     {
+        /// <summary>
+        /// Page Load function
+        /// </summary>
+        /// <param name="sender"> sender object </param>
+        /// <param name="e"> e argument </param>
         protected void Page_Load(object sender, EventArgs e)
         {
             String query = "SELECT * FROM Shoes";

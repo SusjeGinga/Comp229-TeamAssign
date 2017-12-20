@@ -10,10 +10,7 @@
     <br />
 
     <h3>Shoeses list</h3>
-    <ul>
-        <li><asp:linkButton ID="shoesALink" href="DetailPage.aspx" runat="server">Shoes A</asp:linkButton></li>
-        <li>Shoes B</li>
-    </ul>
+
 
     <asp:GridView ID="ItemGrid" runat="server" AutoGenerateColumns="False">
         <Columns>

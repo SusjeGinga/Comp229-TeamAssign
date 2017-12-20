@@ -31,15 +31,6 @@ namespace Comp229_TeamAssign {
         protected global::System.Web.UI.WebControls.LinkButton signInLink;
         
         /// <summary>
-        /// shoesALink control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton shoesALink;
-        
-        /// <summary>
         /// ItemGrid control.
         /// </summary>
         /// <remarks>
