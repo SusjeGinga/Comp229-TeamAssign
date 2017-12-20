@@ -20,8 +20,8 @@ SET ANSI_PADDING OFF
 GO
 
 --Shoes
-INSERT INTO Comp229TeamAssign.[dbo].Shoes (ShoesID, Brand, Category)
-VALUES ('300', 'BrandA', 'CategoryA')
+INSERT INTO Comp229TeamAssign.[dbo].Shoes (Brand, Category)
+VALUES ('BrandA', 'CategoryA')
 
-INSERT INTO Comp229TeamAssign.[dbo].Shoes (ShoesID, Brand, Category)
-VALUES ('301', 'BrandB', 'CategoryB')
+INSERT INTO Comp229TeamAssign.[dbo].Shoes (Brand, Category)
+VALUES ('BrandB', 'CategoryB')

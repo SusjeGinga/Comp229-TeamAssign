@@ -17,7 +17,7 @@
 
     <asp:GridView ID="ItemGrid" runat="server" AutoGenerateColumns="False">
         <Columns>
-            <asp:HyperLinkField DataTextField="ShoeID" HeaderText="Shoe ID" DataNavigateUrlFields="ShoeID" 
+            <asp:HyperLinkField DataTextField="ShoesID" HeaderText="Shoe ID" DataNavigateUrlFields="ShoesID" 
                 DataNavigateUrlFormatString="DetailPage.aspx?ShoeID={0}" />
             <asp:BoundField DataField="Brand" HeaderText="Brand" />
             <asp:BoundField DataField="Category" HeaderText="Category" />
