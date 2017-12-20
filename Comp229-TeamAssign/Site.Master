@@ -58,6 +58,11 @@
                 </div>
             </div>
         </div>
+
+         <div id="banner">
+            <asp:Image runat="server" ImageURL="~/Assets/banner.jpg"></asp:Image>
+        </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

@@ -27,8 +27,8 @@ namespace Comp229_TeamAssign
             SqlConnection conn = new SqlConnection(connectionString);
             SqlCommand comm = new SqlCommand(query, conn);
 
-            comm.Parameters.Add("@shoesID", System.Data.SqlDbType.Int);
-            comm.Parameters["@shoesID"].Value = shoesID;
+            comm.Parameters.Add("@ShoesID", System.Data.SqlDbType.Int);
+            comm.Parameters["@ShoesID"].Value = shoesID;
             conn.Open();
 
             SqlDataReader reader = comm.ExecuteReader();
