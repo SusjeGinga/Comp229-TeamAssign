@@ -16,7 +16,7 @@
                 DataAlternateTextFormatString="Image" HeaderText="Image" />             
         </Fields>
     </asp:DetailsView>
-
+    <asp:Button ID="rentBtn" runat="server" Text="Rent this shoe" OnClick="RentBtn_Click"/>
 
 
     

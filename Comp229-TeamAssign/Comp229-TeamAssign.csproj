@@ -157,6 +157,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Assets\Documentation.docx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="ModifyPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -236,6 +237,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyPage.aspx.cs">
+      <DependentUpon>ModifyPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModifyPage.aspx.designer.cs">
+      <DependentUpon>ModifyPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignInPage.aspx.cs">

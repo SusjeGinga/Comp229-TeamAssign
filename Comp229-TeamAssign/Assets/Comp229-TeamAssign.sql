@@ -91,5 +91,7 @@ INSERT INTO Comp229TeamAssign.[dbo].Shoes (Brand, Model, Quality, Price, Image)
 VALUES ('Lange', 'SX 90 Mens Ski Boots 2017/18', 5, 26,
 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQeuv3w6kS122O34IekMiO1ctSc7yBgmSNrzA5Khr6oty4WN2fegzOCjLBaiYGIhI5sZIib_SQ&usqp=CAY')
 
+INSERT INTO Comp229TeamAssign.[dbo].Customers (Name, Password,Address, Phone)
+VALUES ('Gin', '12345', 'Toronto', 123456)
 
 
