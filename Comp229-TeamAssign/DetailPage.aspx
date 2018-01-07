@@ -7,9 +7,13 @@
 
     <asp:DetailsView ID="shoeDetails" runat="server" AutoGenerateRows="False">
         <Fields>
-            <asp:BoundField DataField="ShoesID" HeaderText="Shoe ID" />
+            <asp:BoundField DataField="Model" HeaderText="Model" />
             <asp:BoundField DataField="Brand" HeaderText="Brand" />
-            <asp:BoundField DataField="Category" HeaderText="Category" />            
+            <asp:BoundField DataField="Quality" HeaderText="Quality" />
+            <asp:BoundField DataField="Price" HeaderText="Price" />
+            <asp:ImageField DataImageUrlField="Image" ControlStyle-Width="200" 
+                ControlStyle-Height="200" DataAlternateTextField="Image" 
+                DataAlternateTextFormatString="Image" HeaderText="Image" />             
         </Fields>
     </asp:DetailsView>
 

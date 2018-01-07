@@ -9,15 +9,15 @@
     <h1>Ice Ski Shoes Rentail</h1>
     <br />
 
-    <h3>Shoeses list</h3>
+    <h3>Shoes list</h3>
 
 
     <asp:GridView ID="ItemGrid" runat="server" AutoGenerateColumns="False">
         <Columns>
-            <asp:HyperLinkField DataTextField="ShoesID" HeaderText="Shoe ID" DataNavigateUrlFields="ShoesID" 
+            <asp:HyperLinkField DataTextField="Model" HeaderText="Model" DataNavigateUrlFields="ShoeID" 
                 DataNavigateUrlFormatString="DetailPage.aspx?ShoeID={0}" />
             <asp:BoundField DataField="Brand" HeaderText="Brand" />
-            <asp:BoundField DataField="Category" HeaderText="Category" />
+            <asp:BoundField DataField="Price" HeaderText="Price per day" />
         </Columns>
     </asp:GridView>
     <br /><br />

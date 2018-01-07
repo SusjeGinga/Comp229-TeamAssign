@@ -18,17 +18,19 @@ namespace Comp229_TeamAssign
         /// <param name="e"> e argument </param>
         protected void Page_Load(object sender, EventArgs e)
         {
-            int shoesID = Convert.ToInt32(Request.QueryString["ShoesID"]);
 
-            String query = "SELECT * FROM Shoes WHERE ShoesID = @shoesID";
+            int shoeID = Convert.ToInt32(Request.QueryString["ShoeID"]);
+
+            //Select all the shoes that contain the ID
+            String query = "SELECT * FROM Shoes WHERE ShoeID = @shoeID";
 
            
             String connectionString = ConfigurationManager.ConnectionStrings["Comp229TeamAssign"].ConnectionString;
             SqlConnection conn = new SqlConnection(connectionString);
             SqlCommand comm = new SqlCommand(query, conn);
 
-            comm.Parameters.Add("@ShoesID", System.Data.SqlDbType.Int);
-            comm.Parameters["@ShoesID"].Value = shoesID;
+            comm.Parameters.Add("@ShoeID", System.Data.SqlDbType.Int);
+            comm.Parameters["@ShoeID"].Value = shoeID;
             conn.Open();
 
             SqlDataReader reader = comm.ExecuteReader();
